@@ -18,10 +18,6 @@ export function ProjectsSection() {
 	const { data, error } = useSWR(url, fetcher);
 	const projects = data?.result;
 	
-	if (error && !data) {
-		throw new Error(error.message);
-		return null;
-	}
 
 	return (
 		<LazyMotion features={domAnimation}>
