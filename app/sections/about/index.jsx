@@ -25,7 +25,7 @@ export function AboutSection() {
 						}}
 					>
 						<p>
-							My name is Novandi. As a passionate third-year computer science student with a solid foundation in web development, desktop development, and data science.
+							My name is Novandi. As a passionate third-year computer science student with a solid foundation in software development and data science.
 						</p>
 						<p className="my-3.5">
 							Before entering college, I took a Vocational School with a Software Engineering major. During my time in high school, I created several websites , Desktop, and Android apps in the form of cashiers
