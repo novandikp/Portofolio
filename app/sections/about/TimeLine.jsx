@@ -4,7 +4,8 @@ import { useEffect, useRef, useState } from "react";
 import { LazyMotion, domAnimation, useInView } from "framer-motion";
 
 const TimeLineData = [
-	{ year: 2023, text: "Start my journey at a Internship and join Bangkit Academy Machine Learning Path" },
+	{ year: 2023, text: "Start my journey  join Bangkit Academy Machine Learning Path" },
+	{ year: 2022, text: "Start my journey  intern at CV. IT Brain Indonesia" },
 	{ year: 2020, text: "Began my college journey at UPN Veteran Jawa Timur." },
 	{ year: 2019, text: "Start a desktop and mobile developer" }
 ];
