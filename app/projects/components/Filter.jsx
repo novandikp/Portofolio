@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import { LazyMotion, domAnimation, useInView } from "framer-motion";
-import { TbBrandJavascript, TbBrandNextjs, TbBrandPython, TbBrandWindows } from "react-icons/tb";
+import { TbBrandJavascript, TbBrandNextjs, TbBrandPython, TbBrandWindows, TbBrowser } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
 import { FilterButton } from "./FilterButton";
 import { BsAndroid } from "react-icons/bs";
@@ -56,6 +56,13 @@ export function Filter({ onClick = (f) => f }) {
 						active={activeFilter === "Windows"}
 					>
 						<TbBrandWindows size="20" />
+					</FilterButton>
+					<FilterButton
+					onClick={() => handleFilterClick("Website")}
+					label="Website"
+					active={activeFilter === "Website"}
+					>
+						<TbBrowser size="20" />
 					</FilterButton>
 				</div>
 			</div>
