@@ -3,7 +3,7 @@ import { LazyMotion, domAnimation, useInView } from "framer-motion";
 import { TbBrandJavascript, TbBrandNextjs, TbBrandPython, TbBrandWindows, TbBrowser } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
 import { FilterButton } from "./FilterButton";
-import { BsAndroid } from "react-icons/bs";
+import { BsAndroid, BsBrowserEdge } from "react-icons/bs";
 
 export function Filter({ onClick = (f) => f }) {
 	const animRef = useRef(null);
@@ -62,7 +62,8 @@ export function Filter({ onClick = (f) => f }) {
 					label="Website"
 					active={activeFilter === "Website"}
 					>
-						<TbBrowser size="20" />
+						<BsBrowserEdge size="20" />
+						
 					</FilterButton>
 				</div>
 			</div>
